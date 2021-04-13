@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-    <link href="styles.css" rel= "Stylesheet"/>
-    
+    <link href="styles.css" rel="Stylesheet" />
+
 </head>
 
 <body>
@@ -31,10 +31,10 @@
     <h3>centered container</h3>
     <div class="container container-centered">This is centered container and it will go till the specified width</div>
     <hr>
-    
+
     <h2>@links</h2>
-    <a class="link link-primary"href = "/">Primary link</a>
-    <a class="link link-secondary"href = "/">Secondary link</a>
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/">Secondary link</a>
     <hr>
 
     <h2>@lists</h2>
@@ -66,13 +66,13 @@
         <div class="nav-brand">Developer</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-inline">
-                <a class="link link-active"href = "/">Home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-inline">
-                <a class="link"href = "/">Products</a>
+                <a class="link" href="/">Products</a>
             </li>
             <li class="list-inline">
-                <a class="link"href = "/">About</a>
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
@@ -80,30 +80,38 @@
 
     <h2>@header</h2>
     <header class="hero">
-        <img class="hero-image" src= "image/Hero.svg">
+        <img class="hero-image" src="image/Hero.svg">
         <h1 class="hero-heading">Darshan the <span class="heading-inverted">Web Developer</span></h1>
     </header>
 
     <hr>
 
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-centered">
+            <h1>white section</h1>
+            <p>MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers used by Mozilla, Microsoft, Google, and Samsung.</p>
+        </div>
     </section>
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+
+    <section class="section ow">
+        <div class="container container-centered">
+            <h1>offf white section</h1>
+            <p>MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers used by Mozilla, Microsoft, Google, and Samsung.</p>
+        </div>
     </section>
     <hr>
 
     <h2>@footer</h2>
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>SocialOne</li>
-            <li>SocialTwo</li>
-            <li>SocialThree</li>
+    <footer class="footer">
+        <div clas="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-inline">
+                <a class="link" href="/">SocialOne</a></li>
+            <li class="list-inline">
+                <a class="link" href="/">SocialTwo</a></li>
+            <li class="list-inline">
+                <a class="link" href="/">SocialThree</a></li>
         </ul>
     </footer>
 

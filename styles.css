@@ -3,10 +3,12 @@
 :root{
     --primary-color:#F97316;
     --dark-grey: #6B7280;
+    --off-white: #f3f4f6;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 /** container **/
@@ -95,6 +97,45 @@ body{
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color)
 }
+
+/** section **/
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+/* .footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+} */
+
+/** to get the reruired link in centre properly **/
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+
 
 
 
