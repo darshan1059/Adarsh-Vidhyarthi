@@ -11,6 +11,15 @@ body{
     margin: 0px;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
+/** spaces **/ 
+.margin-md{
+    margin: 2rem;
+}
+
 /** container **/
 .container{
     padding-left:1rem;
@@ -80,6 +89,7 @@ body{
 /** Header **/
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image{
@@ -124,10 +134,10 @@ body{
     color: white;
 }
 
-/* .footer .footer-header{
+.footer .footer-header{
     font-weight: bold;
     font-size: large;
-} */
+}
 
 /** to get the reruired link in centre properly **/
 .footer ul{
